@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @font-face {
+      font-family: "Computer Modern";
+      src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    }
+    body{
+      margin: 0;
+      background-color: black;
+      font-family: "Computer Modern", sans-serif;
+      height: 100vh;
+    }
+    .resumeHolder{
+      display: grid;
+      height: 100%;
+    }
+    .resume{
+      background-color: white;
+      display: grid;
+      width: 500px;
+      aspect-ratio: 2480/3508;
+      align-self: center;
+      justify-self: center;
+      color: white;
+    }
+    .frame{
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      justify-self: center;
+      width : calc( 100% - 50px );
+      height: calc( 100% - 50px );
+    }
+    .top{
+      display: grid;
+      position: relative;
+      grid-template-columns: 1fr 1fr;
+      background-color: darkblue;
+      height: 10%;
+      width : 111.2%;
+      right : 5.5%;
+    }
+    .myName{
+      display: grid;
+      grid-template-columns: min-content 1fr;
+    }
+    .myName>div{
+      display: grid;
+    }
+    .myName>div>*{
+      align-self: center;
+    }
+    .myNameEmpty{
+      height: 100%;
+      width: 30px;
+    }
+    .cInfo{
+      display: grid;
+      gap: 8px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      font-size: 15px;
+    }
+    .cInfo>div{
+      display: grid;
+      height: min-content;
+      align-self: center;
+    }
+    .cInfo>div>*{
+      align-self: center;
+    }
+    .sections{
+      display: grid;
+      height: 100%;
+      margin-top: 30px;
+      grid-template-rows: repeat(6, min-content);
+      color: black;
+      gap: 20px;
+    }
+    .sections>div{
+      display: grid;
+      height: min-content;
+      grid-template-rows: min-content auto;
+    }
+    .sections>div>.title{
+      font-weight: bold;
+      color: #a6a6a6;
+    }
+    .sections>div>.body{
+      display: grid;
+      height: min-content;
+      grid-template-columns: min-content auto;
+      color: black;
+    }
+    .leftBlock{
+      width: 20px;
+      overflow: visible;
+      height: 72px;
+      align-self: center;
+      justify-self: center;
+    }
+    .bodyText{
+      height: min-content;
+    }
+    .svgleftBlock{
+      width : 100%;
+      height: 100%;
+    }
+    .skills>.body>.bodyText{
+      display: grid;
+      gap: 3px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      font-size: 9px;
+    }
+    .experience>.body>.bodyText{
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      font-size: 12px;
+    }
+    .sections>div>.body>.bodyText{
+      font-size: 13px;
+    }
+    .ActInSpaceTitle{
+      font-weight: bold;
+    }
+    .sections>.summary>.body>.leftBlock{
+      height: 48px;
+    }
+    .sections>.skills>.body>.leftBlock{
+      height: 67px;
+    }
+    .sections>.experience>.body>.leftBlock{
+      height: 112px;
+    }
+    .sections>.education>.body>.leftBlock{
+      height: 32px;
+    }
+    .sections>.certification>.body>.leftBlock{
+      height: 96px;
+    }
+    .sections>.languages>.body>.leftBlock{
+      height: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resumeHolder">
+    <div class="resume">
+      <div class="frame">
+        <div class="top">
+          <div class="myName">
+            <div class="myNameEmpty"></div>
+            <div>
+              <h2 style="font-size: 17px; margin: 0;">Anar Abdullazada</h2>
+              <h3 style="font-size: 10px; margin: 0;">Software Developer</h3>
+            </div>
+          </div>
+          <div class="cInfo">
+            <div>
+              <img src="" alt="">
+              <div class="cInfoSubdiv" style="font-size: 8px; height: min-content;">+994-55-239-00-52</div>
+            </div>
+            <div>
+              <img src="" alt="">
+              <div class="cInfoSubdiv" style="font-size: 8px; height: min-content;">anar.abdullazada@ufaz.az</div>
+            </div>
+            <div>
+              <img src="" alt="">
+              <div class="cInfoSubdiv" style="font-size: 8px; height: min-content;">Bahruz Nuriyev st., Baku, Azerbaijan</div>
+            </div>
+            <div>
+              <img src="" alt="">
+              <div class="cInfoSubdiv" style="font-size: 8px; height: min-content;">www.linkedin.com/in/anar-abdullazada-1b9332214/</div>
+            </div>
+          </div>
+        </div>
+        <div class="sections">
+          <div class="summary">
+            <div class="title">Summary</div>
+            <div class="body">
+              <div class="leftBlock">
+                <svg class="svgleftBlock">
+                  <rect width="5" height="100%" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                </svg> 
+              </div>
+              <div class="bodyText">
+                I am capable, curious and hard-working Computer Science student, looking forward to my first work experience.
+                I want to put my academic Software Developer skills to use in the industry.
+              </div>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="title">Skills</div>
+            <div class="body">
+              <div class="leftBlock">
+                <svg class="svgleftBlock">
+                  <rect width="5" height="100%" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                </svg> 
+              </div>
+              <div class="bodyText">
+                <div>• HTML, CSS, JS, ReactJS Library
+                NodeJS Express, Rest APIs, PHP</div>
+                <div>• MySQL and PostgreSQL
+                Agile, Data Structure and Algorithms</div>
+                <div>• Basics of Docker, GitHub, Numpy
+                  Matplotlib, Pandas, some PyTorch</div> 
+                <div>• OOP, Java, Python, C, C (POSIX), Other</div>
+              </div>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="title">Experience</div>
+            <div class="body">
+              <div class="leftBlock">
+                <svg class="svgleftBlock">
+                  <rect width="5" height="100%" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                </svg> 
+              </div>
+              <div class="bodyText">
+                <div>• I have experience building and deploying web applications and PWAs (progressive web apps) for Android and IOS.</div> 
+                <div>• I have experience with data structures and algorithms both from university and personal projects</div>
+                <div>• <a href="https://apome.alwaysdata.net/addUser">Web application</a> for managing characters in a "Cityofmist" TTRPG. (deployed)</div>
+                <div>• <a href="https://github.com/AP0me/mindGameOrijinal">Web application</a> of "The Mind Game" we made with team of 3 people.</div>
+              </div>
+            </div>
+          </div>
+          <div class="education">
+            <div class="title">Education</div>
+            <div class="body">
+              <div class="leftBlock">
+                <svg class="svgleftBlock">
+                  <rect width="5" height="100%" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                </svg> 
+              </div>
+              <div class="bodyText">
+                <div>French-Azerbaijani University - UFAZ</div>
+                <div>Computer Science, in progress. 2020-2023</div>
+              </div>
+            </div>
+          </div>
+          <div class="certification">
+            <div class="title">Certification</div>
+            <div class="body">
+              <div class="leftBlock">
+                <svg class="svgleftBlock">
+                  <rect width="5" height="100%" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                </svg> 
+              </div>
+              <div class="bodyText">
+                <div class="ActInSpaceTitle">ActInSpace Hackathon</div>
+                <div class="ActInSpaceText">I have worked together in a team to come up with solutions for pandemic prediction. I contributed by making a prototype for the demonstration of the disease prediction algorithm with simple simulated cities and charts showing the spreading of disease in real time in matplotlib library of Python.</div>
+              </div>
+            </div>
+          </div>
+          <div class="languages">
+            <div class="title">Languages</div>
+            <div class="body">
+              <div class="leftBlock">
+                <svg class="svgleftBlock">
+                  <rect width="5" height="100%" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                </svg> 
+              </div>
+              <div class="bodyText">
+                Azerbaijani, English, Russian, Turkish, French
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
