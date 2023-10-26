@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
   <body>
     <article class="markdown-body entry-content container-lg" itemprop="text">
