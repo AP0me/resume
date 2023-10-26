@@ -3,10 +3,10 @@
   <body>
     <article class="markdown-body entry-content container-lg" itemprop="text">
       <h2 style="margin: 0;" tabindex="-1" id="user-content-anar-abdullazada" dir="auto">
-        <p style="margin: 0;" align="center">ANAR ABDULLAZADA</p>
+        <p align="center">ANAR ABDULLAZADA</p>
       </h2>
       <h3 style="margin: 0;" tabindex="-1" id="user-content-software-developerengineer" dir="auto">
-        <p style="margin: 0;" align="center">Software Developer/Engineer</p>
+        <p align="center">Software Developer/Engineer</p>
       </h3>
       <p dir="auto"><strong>EDUCATION</strong></p>
       <ul dir="auto">
