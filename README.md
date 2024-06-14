@@ -60,15 +60,16 @@ Contact:
   - Developed backend logic with ExpressJS and PostgreSQL.
   - Used PL/SQL for database logic and ensured data consistency through transactions.
 
-- **PHP Developer**  
-  Cyber-Security Platform, Baku (April 2024 - Present)  
-  - Implemented functionality for the KTLab project.
-  - Designed complex SQL queries, database normalization, and hosted projects on AzureVM/Docker using ssh.
-
 - **Flutter Developer Intern**  
   GNI Software, Baku (March 2024 - April 2024)  
   - Developed cross-platform apps with Flutter and Dart.
   - Integrated OAuth 2.0 for Google and Apple authentication.
+
+
+- **PHP Developer**  
+  Cyber-Security Platform, Baku (April 2024 - Present)  
+  - Implemented functionality for the KTLab project.
+  - Designed complex SQL queries, database normalization, and hosted projects on AzureVM/Docker using ssh.
 
 ---
 
