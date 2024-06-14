@@ -4,46 +4,12 @@
 **ANAR ABDULLAZADA**
 Full-Stack Developer | Mobile Application Developer | Database Developer | Software Engineer
 
-Contact:
-- Phone: (+994) 55-239-00-52
-- Email: anar.abdullazada@ufaz.az
-- Address: Baku, Behruz Nuriyev 15\9A
-- LinkedIn: [Anar Abdullazada](https://www.linkedin.com/in/anar-abdullazada-1b9332214)
-- GitHub: [AP0me](https://github.com/AP0me?tab=repositories)
-
 ---
 
 **EDUCATION**
 
 - **French-Azerbaijani University**  
   Computer Science, in progress (2020-Present)
-
----
-
-**LANGUAGES**
-
-- Azerbaijani
-- English
-- Russian
-- Turkish
-- French
-
----
-
-**DEVELOPER SKILLS**
-
-- PHP, BootStrap, MySQL, PostgreSQL, Flutter, Docker, Git, Azure
-- ExpressJS, ReactJS, Flask, SpringBoot, OOP, C, Numpy, Pandas, etc.
-
----
-
-**CERTIFICATIONS**
-
-- **ACTINSPACE HACKATHON**  
-  I and my team solved a pandemic prediction problem. I prototyped a disease prediction algorithm using the matplotlib library in Python.
-
-- **GAME DEV AND ECOSYSTEM CAMP**  
-  We talked to investors about the future of the game industry in Baku.
 
 ---
 
@@ -88,6 +54,33 @@ Contact:
 - Auction website for ideas.
 - Data Structures and Algorithms.
 
+**LANGUAGES**
+
+- Azerbaijani
+- English
+- Russian
+- Turkish
+- French
+
+---
+
+**DEVELOPER SKILLS**
+
+- PHP, BootStrap, MySQL, PostgreSQL, Flutter, Docker, Git, Azure
+- ExpressJS, ReactJS, Flask, SpringBoot, OOP, C, Numpy, Pandas, etc.
+
+---
+
+**CERTIFICATIONS**
+
+- **ACTINSPACE HACKATHON**  
+  I and my team solved a pandemic prediction problem. I prototyped a disease prediction algorithm using the matplotlib library in Python.
+
+- **GAME DEV AND ECOSYSTEM CAMP**  
+  We talked to investors about the future of the game industry in Baku.
+
+---
+
 ---
 
 **ABOUT ME**
@@ -95,3 +88,10 @@ Contact:
 I am a skillful, ambitious, and hard-working individual looking forward to joining your team. I aim to put my software developer skills to use in the industry.
 
 ---
+
+Contact:
+- Phone: (+994) 55-239-00-52
+- Email: anar.abdullazada@ufaz.az
+- Address: Baku, Behruz Nuriyev 15\9A
+- LinkedIn: [Anar Abdullazada](https://www.linkedin.com/in/anar-abdullazada-1b9332214)
+- GitHub: [AP0me](https://github.com/AP0me?tab=repositories)
